@@ -4,7 +4,7 @@ This is a very simple S/PDIF electrical to optical signal converter. It is desig
 ## Description
 The PCB has a fairly simple design:
 
-![PCB-Layout](CAD.png)
+![PCB-Layout](CAD_PCB.png)
 
 It uses a 74HCU04D hex unbuffered inverter to bring the signal amplitude of -0.5V to +0.5V from the coax input to TTL level (0V to +5V), powering the fiber optical transmitter, which then outputs the signal as light pulses.
 Since the transmitter and the inverter don't like voltages above 5V i would highly recommend always using a regulated power supply, if no USB port is available for power delivery.
