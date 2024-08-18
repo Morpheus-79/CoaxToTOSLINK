@@ -16,8 +16,8 @@ The PCB is designed for larger SMD components - so even soldering beginners shou
 ![Aluminum housing (inside)](Pic2.jpg)
 
 ## Usage
-It's just plug'n'play. I've mounted it on the back of my TV (since it only provides digital out via coax connector):
+It's just plug'n'play. I've mounted it on the back of my TV (since this one only provides digital audio output via coax connector):
 
 ![TV backside](Pic3.jpg)
 
-... connected it with the USB port of my TV and with my soundbar. It worked right out of the box!
+... connected it with the USB port of my TV and then with my soundbar. It worked right out of the box!
