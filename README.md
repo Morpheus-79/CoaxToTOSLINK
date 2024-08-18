@@ -20,4 +20,4 @@ It's just plug'n'play. I've mounted it on the back of my TV (since this one only
 
 ![TV backside](Pic3.jpg)
 
-... connected it with the USB port of my TV and then with my soundbar. It worked right out of the box!
+... connected it with the USB port of my TV and then via fiber optical cable with my soundbar (which only has optical digital audio input). It worked right out of the box!
