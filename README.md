@@ -6,8 +6,8 @@ The PCB has a fairly simple design:
 
 ![PCB-Layout](CAD_PCB.png)
 
-It uses a 74HCU04D hex unbuffered inverter to bring the signal amplitude of -0.5V to +0.5V from the coax input to TTL level (0V to +5V), powering the fiber optical transmitter, which then outputs the signal as light pulses.
-Since the transmitter and the inverter don't like voltages above 5V i would highly recommend always using a regulated power supply, if no USB port is available for power delivery.
+It uses a 74HCU04D hex unbuffered inverter to bring the signal amplitude of the coax input (-0.5V to +0.5V) to TTL level (0V to +5V), powering the fiber optical transmitter, which then outputs the signal as light pulses.
+I've used a IRLML6402 P-Channel MOSFET as a cheap and simple protection against wrong polarity power supplies... but there's no overvoltage protection. So since the transmitter and the inverter don't like voltages above 5V i would highly recommend always using a regulated power supply, if no USB port is available for power delivery.
 
 The PCB is designed for larger SMD components - so even soldering beginners shouldn't have any problems with it. I've included a [bill of materials](BOM.xlsx) with links to every part. The PCB has some M3 mounting holes, if someone wants to mount it inside a case... but aside from that, it fits perfectly inside a 82   ⃰27   ⃰100mm aluminum housing like [this one](https://aliexpress.com/item/32982948345.html):
 
